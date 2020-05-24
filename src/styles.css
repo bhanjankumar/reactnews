@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/verdana.ttf') format('ttf');
+}
+body {
+  background-color: #F1F3F6;
+  font-family: 'Verdana';
+  font-size: 14px;
+}
+.planets-list {
+  border: 1px solid #d1d1d1;
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: 20px 5px;
+  min-height: 150px;
+}
+.navbar-dark {
+  background-color: #FF6601;
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+.footer-copyright {
+  background: #FF6601;
+  color: #fff;
+}
+.bgcolor {
+  background: #FF6601;
+}
+.boldBdr {
+  border: 10px solid #000;
+}
+.boldBdr .population,
+.boldBdr .title,
+.boldBdr .gravity,
+.boldBdr .terrain {
+  font-size: 22px;
+}
+.planets-list.boldBdr {
+  min-height: 200px;
+}
+.logout {
+  float: right;
+  margin: 13px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+#news {
+  margin: 15px 0px;
+}
+#news a {
+  color: #000;
+}
+.newslist {
+  padding: 5px 0px;
+  display: flex;
+}
+#news .comments {
+  font-size: 12px;
+}
+#news .pagination a {
+  padding: 0 10px;
+  text-decoration: underline;
+  color: #FF6601;
+}
+.heading {
+  padding: 5px 0px;
+  color: #fff;
+}
+#news .newslist .comment,
+#news .newslist .votes,
+#news .newslist .title,
+#news .newslist .upvotes {
+  margin: 0 10px 0 0;
+}
+.newslisthead {
+  padding: 5px 0px;
+  display: flex;
+  background-color: #FF6601;
+}
+.newslisthead .comment,
+.newslisthead .votes,
+.newslisthead .title,
+.newslisthead .upvotes {
+  margin: 0 10px 0 0;
+  font-size: 10px;
+  color: #fff;
+}
+.newslist .comment {
+  width: 35px;
+}
+.newslist .votes {
+  width: 40px;
+}
+.newslist .upvotes {
+  width: 30px;
+}
+.linechart-graph {
+  border-top: 3px solid #FF6601;
+  padding-top: 15px;
+  border-bottom: 3px solid #FF6601;
+  padding-bottom: 15px;
+}
+.upvotes .fa-play {
+  transform: rotate(150deg);
+  color: #ccc;
+}

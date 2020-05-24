@@ -1,0 +1,1 @@
+export const NAV_TO_HOME = 'NAV_TO_HOME';
