@@ -1,8 +1,6 @@
-1. Shopping cart 
+1. React News
 
-2. react redux using shopping cart developed.
-
-3. This cart is developed react redux and css using less. font is using verdana
+2. react redux using developed.
 
 4. After download this project please install npm install
 

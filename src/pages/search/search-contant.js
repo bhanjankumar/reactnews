@@ -1,4 +1,0 @@
-export const NAV_PLANET_LIST = 'NAV_PLANET_LIST';
-export const NAV_TO_HOME = 'NAV_TO_HOME';
-export const NAV_TO_CHECKLOGIN = 'NAV_TO_CHECKLOGIN';
-export const NAV_LOGIN_SUCCESS = 'NAV_LOGIN_SUCCESS';

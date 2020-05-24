@@ -1,11 +1,8 @@
 import { combineReducers } from 'redux';
-
 import home from './pages/home/home-reducer';
-import Search from './pages/search/search-reducer';
 
 const combineReducer = combineReducers({
-  home,
-  Search
+  home
 });
 
 const rootReducer = (state,action) => {
